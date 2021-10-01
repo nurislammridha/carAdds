@@ -1,0 +1,11 @@
+.form-bg {
+  background-color: #fff;
+  padding: 15px;
+  /* box-shadow: 0 8px 6px -6px black; */
+  box-shadow: 0.5rem 0.5rem #888, -0.5rem -0.5rem #ccc;
+}
+.tbl-brand tr td p {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+}
