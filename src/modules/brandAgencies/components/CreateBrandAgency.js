@@ -10,7 +10,17 @@ const CreateBrandAgency = () => {
           <div className="row">
             <div className="col-sm-6">
               <div class="form-group">
-                <label for="exampleInputEmail1">First Name</label>
+                <label for="exampleInputEmail1">Name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="exampleInputEmail1"
+                  aria-describedby="emailHelp"
+                  placeholder="Name"
+                />
+              </div>
+              <div class="form-group">
+                <label for="exampleInputEmail1">Email</label>
                 <input
                   type="email"
                   class="form-control"
@@ -20,75 +30,94 @@ const CreateBrandAgency = () => {
                 />
               </div>
               <div class="form-group">
-                <label for="exampleInputEmail1">Second Name</label>
+                <label for="exampleInputEmail1">Designation</label>
                 <input
-                  type="email"
+                  type="text"
                   class="form-control"
                   id="exampleInputEmail1"
                   aria-describedby="emailHelp"
-                  placeholder="Enter email"
+                  placeholder="Designation"
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="exampleInputEmail1">
+                  Which vehicle do you prefer
+                </label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="exampleInputEmail1"
+                  aria-describedby="emailHelp"
+                  placeholder="Which vehicle do you prefer"
                 />
               </div>
               <div class="form-group">
-                <label for="exampleInputEmail1">Second Name</label>
+                <label for="exampleInputEmail1">
+                  How many days you want to campaign
+                </label>
                 <input
-                  type="email"
+                  type="text"
                   class="form-control"
                   id="exampleInputEmail1"
                   aria-describedby="emailHelp"
-                  placeholder="Enter email"
-                />
-              </div>
-              <div class="form-group">
-                <label for="exampleInputEmail1">Second Name</label>
-                <input
-                  type="email"
-                  class="form-control"
-                  id="exampleInputEmail1"
-                  aria-describedby="emailHelp"
-                  placeholder="Enter email"
+                  placeholder="How many days you want to campaign"
                 />
               </div>
             </div>
             <div className="col-sm-6">
               <div class="form-group">
-                <label for="exampleInputEmail1">First Name</label>
+                <label for="exampleInputEmail1">Phone</label>
                 <input
-                  type="email"
+                  type="text"
                   class="form-control"
                   id="exampleInputEmail1"
                   aria-describedby="emailHelp"
-                  placeholder="Enter email"
+                  placeholder="Phone"
                 />
               </div>
               <div class="form-group">
-                <label for="exampleInputEmail1">Second Name</label>
+                <label for="exampleInputEmail1">Company Name</label>
                 <input
-                  type="email"
+                  type="text"
                   class="form-control"
                   id="exampleInputEmail1"
                   aria-describedby="emailHelp"
-                  placeholder="Enter email"
+                  placeholder="Company Name"
                 />
               </div>
               <div class="form-group">
-                <label for="exampleInputEmail1">Second Name</label>
+                <label for="exampleInputEmail1">
+                  Where you want to campaign
+                </label>
+                <select class="form-control" id="exampleInputEmail1">
+                  <option>Select Options</option>
+                  <option>Inside Dhaka</option>
+                  <option>Outside Dhaka</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="exampleInputEmail1">
+                  How many vehicles you want
+                </label>
                 <input
-                  type="email"
+                  type="text"
                   class="form-control"
                   id="exampleInputEmail1"
                   aria-describedby="emailHelp"
-                  placeholder="Enter email"
+                  placeholder="How many vehicles you want"
                 />
               </div>
               <div class="form-group">
-                <label for="exampleInputEmail1">Second Name</label>
+                <label for="exampleInputEmail1">
+                  How many vehicles you want
+                </label>
                 <input
-                  type="email"
+                  type="text"
                   class="form-control"
                   id="exampleInputEmail1"
                   aria-describedby="emailHelp"
-                  placeholder="Enter email"
+                  placeholder="How many vehicles you want"
                 />
               </div>
               <div class="form-group">
